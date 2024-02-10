@@ -199,35 +199,35 @@ class business_card_app extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              //padding: EdgeInsets.all(16) measn from all sides up down left right will be
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              child: Container(
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(8)),
-                height: 65,
-                child: const Row(
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.only(left: 16),
-                      child: Icon(
-                        Icons.phone,
-                        size: 32,
-                        color: Color(0xFF2B475E),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(left: 16),
-                      child: Text(
-                        "xxxx-xxxx-xxxx-xxxx",
-                        style: TextStyle(fontSize: 24),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
+            // Padding(
+            //   //padding: EdgeInsets.all(16) measn from all sides up down left right will be
+            //   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            //   child: Container(
+            //     decoration: BoxDecoration(
+            //         color: Colors.white,
+            //         borderRadius: BorderRadius.circular(8)),
+            //     height: 65,
+            //     child: const Row(
+            //       children: [
+            //         Padding(
+            //           padding: EdgeInsets.only(left: 16),
+            //           child: Icon(
+            //             Icons.phone,
+            //             size: 32,
+            //             color: Color(0xFF2B475E),
+            //           ),
+            //         ),
+            //         Padding(
+            //           padding: EdgeInsets.only(left: 16),
+            //           child: Text(
+            //             "xxxx-xxxx-xxxx-xxxx",
+            //             style: TextStyle(fontSize: 24),
+            //           ),
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
