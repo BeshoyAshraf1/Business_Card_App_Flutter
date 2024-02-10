@@ -168,7 +168,7 @@ class business_card_app extends StatelessWidget {
               ),
             ),
             const Text(
-              "Beshoy Ashraf",
+              "Beshoy Ashraf Beshoy Ashraf",
               style: TextStyle(
                   color: Colors.black, fontSize: 32, fontFamily: 'Pacifico'),
             ),
@@ -194,7 +194,7 @@ class business_card_app extends StatelessWidget {
                   color: Color(0xFF2B475E),
                 ),
                 title: Text(
-                  "xxxx-xxxx-xxxx-xxxx",
+                  "xxxx-xxxx-xxxx-xxxxxx",
                   style: TextStyle(fontSize: 24),
                 ),
               ),
