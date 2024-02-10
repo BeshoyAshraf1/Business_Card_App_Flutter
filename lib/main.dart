@@ -185,7 +185,7 @@ class business_card_app extends StatelessWidget {
             ),
             Card(shape: RoundedRectangleBorder(borderRadius:BorderRadius.circular(8) ),
               margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              color: Colors.cyan ,
+              color: Colors.white ,
               child: const ListTile( 
                 
                 leading: Icon(
